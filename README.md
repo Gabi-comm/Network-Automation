@@ -4,11 +4,11 @@ A Python automation script designed for **SecureCRT** to streamline device confi
 
 ## Features & Recent Updates
 
-*   **Dictionary-Driven Logic:** Replaced complex `if-else` chains with a clean dictionary mapping pattern for better performance and maintainability.
-*   **Fail-Safe Lookups (`.get()`):** Transitioned to `.get()` for dictionary lookups, adding a fallback safety net for configurations (e.g., VLANs) if unexpected changes occur.
-*   **Automated Verification:** Added an **auto-ping** feature immediately following configuration blocks to instantly verify network connectivity.
-*   **Robust Error Handling:** Integrated `try-except` blocks across critical execution paths to isolate and diagnose runtime errors quickly.
-*   **Real-Time Progress Logs:** Added descriptive `print()` status messages throughout the execution flow to easily monitor the deployment process.
+*   *Changed if else to dictionary:** Replaced `if-else` chains with a dictionary mapping pattern.
+*   **Changed [] for Fail-Safe (`.get()`):** Transitioned to `.get()` for dictionary lookups, adding a fallback safety net for configurations (e.g., VLANs) if unexpected changes occur.
+*   **Automated Verification:** Added an **auto-ping** feature immediately following configuration blocks. 
+*   Added Error Handling:** Integrated `try-except` blocks across execution paths to know runtime errors quickly.
+*  **Added Print log:** Added `print()` status messages throughout the execution flow. 
 
 ---
 
